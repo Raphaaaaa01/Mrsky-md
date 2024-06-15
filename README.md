@@ -44,7 +44,7 @@
 
 
 <a lign="left">
-  <a href="https://github.com/forks/mrsky-cyber/Mrsky-md">
+  <a href="https://github.com/mrsky-cyber/Mrsky-md/forks">
     <img src="https://img.shields.io/github/forks/mrsky-ccyber/Mrsky-md?label=Fork&style=social">
   <p align="left"> 
   <a href="https://github.com/mrsky-cyber/Mrsky-md/stargazers">
