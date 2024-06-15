@@ -1,6 +1,6 @@
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
-<h1 align="center">Mr-Sky-𝗺𝗱 </h1> 
+<h1 align="center">Mrsky-Md</h1> 
 <p align="center"> Introducing Mr-Sky-md, It is designed to bring a whole new level of excitement to your boring WhatsApp use.hope it might be helpful to all loosen hope we feel delightful to save you release your feedback and share our chuddy buddy </p>
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
@@ -44,7 +44,7 @@
 
 
 <a lign="left">
-  <a href="https://github.com/mrsky-cyber/Mrsky-md/fork">
+  <a href="https://github.com/forks/mrsky-cyber/Mrsky-md">
     <img src="https://img.shields.io/github/forks/mrsky-ccyber/Mrsky-md?label=Fork&style=social">
   <p align="left"> 
   <a href="https://github.com/mrsky-cyber/Mrsky-md/stargazers">
@@ -113,10 +113,10 @@
 if scan qr is not working please try using pairing code i am currently working on it
 ---
 1.  ***Get `SESSION ID` by [`SCANING QR`](https://venocyber-qr-ce49794175c5.herokuapp.com/) or server 2 qr code
-    <br>
+    <br>👇👇👇👇👇👇
 <a href="https://venocyber-md-qr.onrender.com"><img title="SCAN QR SERVER 2" src="https://img.shields.io/badge/GET SESSION-h?color=darkblue&style=for-the-badge&logo=msi"></a>
-2.  [`PARING CODE`](https://venocybe-md-session.onrnder.com). 𝙤𝙧 𝙨𝙚𝙧𝙫𝙚𝙧 2 𝙥𝙖𝙞𝙧𝙞𝙣𝙜 𝙘𝙤𝙙𝙚
-    <br>
+2.  [`PARING CODE`](https://venocybe-md-session-oz6r.onrnder.com/pair). 𝙤𝙧 𝙨𝙚𝙧𝙫𝙚𝙧 2 𝙥𝙖𝙞𝙧𝙞𝙣𝙜 𝙘𝙤𝙙𝙚
+    <br>👇👇👇👇👇👇
 <a href="https://venocyber-md-session-oz6r.onrender.com/pair"><img title="𝙋𝙖𝙞𝙧𝙞𝙣𝙜 𝙘𝙤𝙙𝙚 𝙨𝙚𝙧𝙫𝙚𝙧 2" src="https://img.shields.io/badge/𝙥𝙖𝙞𝙧𝙞𝙣𝙜 𝙘𝙤𝙙𝙚 𝙨𝙚𝙧𝙫𝙚𝙧 2-h?color=green&style=for-the-badge&logo=msi"></a>
 `it is currently powerful working`
 Then `Go-to Whatapp>Three dots>Linked Devices`***
