@@ -16,7 +16,7 @@ if (!Array.isArray(global.renters)) {
 if (!Array.isArray(global.rentdisable)) {
   global.rentdisable = [];
 }
-let disabledperma = ["mrskybot", "mrskylist", "stoprent", "disableshare", "enableshare", "setsudo", "delsudo", "newvar", "delvar", "setvar", "update", "updatenow", "restart", "reboot"];
+let disabledperma = ["mrskybot", "mrskylist", "stoprent", "disablemrsky", "enablemrsky", "setsudo", "delsudo", "newvar", "delvar", "setvar", "update", "updatenow", "restart", "reboot"];
 const {
   userdb,
   smd,
@@ -452,9 +452,9 @@ smd({
       }, {
         bgmarray: _0x342d7e
       });
-      return await _0x17f7be.reply("*Song _" + _0x490490 + "_ removed from BGM.*");
+      return await _0x17f7be.reply("*🎉Song _" + _0x490490 + "_ removed from BGM.*");
     } else {
-      return await _0x17f7be.reply("*Name _'" + _0x490490 + "'_ does not exist in BGM.*");
+      return await _0x17f7be.reply("*🎉Name _'" + _0x490490 + "'_ does not exist in BGM.*");
     }
   } catch (_0x3a2540) {
     await _0x17f7be.error(_0x3a2540 + "\n\nCommand: delbgm ", _0x3a2540);
@@ -912,7 +912,7 @@ events.cmd({
   cmdname: "mrskylist",
   desc: "Shows a list of users who has rent a bot!",
   fromMe: true,
-  type: "share"
+  type: "mrsky"
 }, async _0x48b928 => {
   try {
     let _0x35816f = global.renters;
@@ -1017,7 +1017,7 @@ events.cmd({
   desc: "Enable cmds for rent bot users!",
   use: "< cmname / tag / ytmp4 etc.>",
   fromMe: true,
-  type: "share"
+  type: "mrsky"
 }, async (_0xb03e25, _0x3b447a) => {
   try {
     if (!_0x3b447a) {
@@ -1461,7 +1461,7 @@ const Rentt = async (_0x1b984f, _0x8bf7a7, _0x181a7a = "", _0x235024 = {}) => {
                 });
                 for (const _0x46a41c in _0x5e5013) {
                   if (_0x13060c == _0x46a41c.toLowerCase()) {
-                    _0x18a446 = "┌───〈 *" + _0x46a41c.toLowerCase() + " menu*  〉───🎁\n│╭─────────────···▸\n┴│▸\n";
+                    _0x18a446 = "┌───{{ *" + _0x46a41c.toLowerCase() + " menu*  }}───🎁\n│╭─────────────···▸\n┴│▸\n";
                     for (const _0x2e57d3 of _0x5e5013[_0x46a41c]) {
                       _0x18a446 += "⬡│▸ " + _0x2e57d3 + "\n";
                     }
@@ -1723,9 +1723,9 @@ const Rentt = async (_0x1b984f, _0x8bf7a7, _0x181a7a = "", _0x235024 = {}) => {
                 let _0x5e5dd0 = fs.readFileSync(_0x3c1a40);
                 if (!_0x181a7a && _0x5e5dd0) {
                   _0x181a7a = Buffer.from(_0x5e5dd0).toString("base64");
-                  let _0x5b0adb = "┌───⭓\n👑 *[MRSKY-MD-SAHRING-ON]*\n👑 _Your Session Id, Dont provide!_\n└────────────⭓\n";
+                  let _0x5b0adb = "┌───>\n👑 *[MRSKY-MD-SAHRING-ON]*\n👑 _Your Session Id, Dont provide!_\n└────────────>\n";
                   await _0x1a9455.sendMessage(_0x459047, {
-                    text: "Mrsky;;;" + _0x181a7a
+                    text: "Mrsky;;;" + _0x181a7a,
                   });
                 }
                 if (_0x1e0584 !== _0x517212) {
@@ -1747,7 +1747,7 @@ const Rentt = async (_0x1b984f, _0x8bf7a7, _0x181a7a = "", _0x235024 = {}) => {
             }
             print("RENT BOT :  ✅ Whatsapp Login Successful!");
             global.renters.push(_0x1a9455);
-            let _0x1221e4 = "┌───⭓\n👑  [MRSKY SHARING RUNNING] \n👑  Prefix : [ " + (prefix || "null") + " ]\n👑  Mode : " + Config.WORKTYPE + "\n👑  Plugins : " + events.commands.length + "";
+            let _0x1221e4 = "┌───>\n👑  [MRSKY SHARING RUNNING] \n👑  Prefix : [ " + (prefix || "null") + " ]\n👑  Mode : " + Config.WORKTYPE + "\n👑  Plugins : " + events.commands.length + "";
             await _0x8bf7a7.reply("*SHARE MODE*\n*Now @" + _0x517212 + " Have own whatsapp bot!*:", {
               mentions: [_0x459047]
             }, "smd");
