@@ -104,10 +104,10 @@ smd({
         
   let too = `*Separate the text with _:_ sign!*\n*Example : ${prefix + smd} WASI _:_ Bot*`
   if(!mm) {
-    let str = `┌───〈 *ᴇᴅɪᴛᴏʀ ᴍᴇɴᴜ*  〉───◆
+    let str = `┌───〈 *ᴇᴅɪᴛᴏʀ ᴍᴇɴᴜ*  〉───🔜
 │╭─────────────···▸
 ┴│▸
-⬡│▸ ${gfxx.join(" \n⬡│▸ ")}
+🚀🚀🚀 ${gfxx.join(" \n🚀🚀🚀 ")}
 ┬│▸
 │╰────────────···▸▸
 └───────────────···▸
