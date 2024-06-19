@@ -45,7 +45,7 @@
 
 <a lign="left">
   <a href="https://github.com/mrsky-cyber/Mrsky-md/forks">
-    <img src="https://img.shields.io/github/forks/mrsky-ccyber/Mrsky-md?label=Fork&style=social">
+    <img src="https://img.shields.io/github/forks/mrsky-ccyber/Mrsky-md?label=Forks&style=social">
   <p align="left"> 
   <a href="https://github.com/mrsky-cyber/Mrsky-md/stargazers">
     <img src="https://img.shields.io/github/stars/mrsky-cyber/Mrsky-md?style=social">
@@ -70,7 +70,7 @@
 <p align="center">
   <a href="https://dashboard.heroku.com/new?template=https%3A%2F%2Fgithub.com%2mrsky-cyber%2Mrsky-md"><img src="https://img.shields.io/badge/heroku-9d7acc?style=for-the-badge&logo=heroku&logoColor=430098"></a>
   <a href="https://Mrsky-web01.vercel.app/replit.html"><img src="https://img.shields.io/badge/replit-253c99?style=for-the-badge&logo=replit&logoColor=F26207"></a>
-  <a href="https://app.koyeb.com/apps/deploy?type=git&repository=github.com/mrsky-cyber/Mrsky-md&branch=main&env[SESSION_ID]&env[OWNER_NUMBER]=255715654328&env[MONGODB_URI]&&env[OWNER_NAME]=mrsky ᴛᴇᴄʜ&env[KOYEB_API]&env[PREFIX]=.&env[WAPRESENCE]&env[AUTO_READ_STATUS]=true&env[DISABLE_PM]=false&env[PACK_AUTHER]=whatsapp+bot&env[PACK_NAME]=Venocyber ᴛᴇᴄʜ&env[STYLE]=0&env[MODE]=private&env[READ_MESSAGE]=false&env[THEME]=MRSKY&env[WARN_COUNT]=3&env[BLOCK_JID]=null&env[TIME_ZONE]=Africa/Dodoma&name=Mrsky-tech&env[KOYEB_NAME]=Mrsky-md&env[SUDO]=null&env[THUMB_IMAGE]=https://github.com/mrsky-cyber/Mrsk-md"><img src="https://img.shields.io/badge/koyeb-033604?style=for-the-badge&logo=koyeb&logoColor=white"></a>
+  <a href="https://app.koyeb.com/apps/deploy?type=git&repository=github.com/mrsky-cyber/Mrsky-md&branch=main&env[SESSION_ID]&env[OWNER_NUMBER]=255715654328&env[MONGODB_URI]&&env[OWNER_NAME]=mrsky ᴛᴇᴄʜ&env[KOYEB_API]&env[PREFIX]=.&env[WAPRESENCE]&env[AUTO_READ_STATUS]=true&env[DISABLE_PM]=false&env[PACK_AUTHER]=whatsapp+bot&env[PACK_NAME]=Mrsky ᴛᴇᴄʜ&env[STYLE]=0&env[MODE]=private&env[READ_MESSAGE]=false&env[THEME]=MRSKY&env[WARN_COUNT]=3&env[BLOCK_JID]=null&env[TIME_ZONE]=Africa/Dodoma&name=Mrsky-tech&env[KOYEB_NAME]=Mrsky-md&env[SUDO]=null&env[THUMB_IMAGE]=https://github.com/mrsky-cyber/Mrsk-md"><img src="https://img.shields.io/badge/koyeb-033604?style=for-the-badge&logo=koyeb&logoColor=white"></a>
 </p>
   <a href="https://youtube.com/shorts/b6zv1n6DTEM"><img src="https://img.shields.io/badge/CodeSpace-green?colorA=%23ff000&colorB=%23017e40&style=for-the-badge&logo=git&logoColor=white"></a>
 </p>
@@ -112,12 +112,10 @@
 ## Deployment Methods
 if scan qr is not working please try using pairing code i am currently working on it
 ---
-1.  ***Get `SESSION ID` by [`SCANING QR`](https://venocyber-qr-ce49794175c5.herokuapp.com/) or server 2 qr code
+1.  ***Get `SESSION ID` by
+2.  [`PARING CODE`](https://veno-session.onrnder.com/pair). 𝙤𝙧 𝙨𝙚𝙧𝙫𝙚𝙧 2 𝙥𝙖𝙞𝙧𝙞𝙣𝙜 𝙘𝙤𝙙𝙚
     <br>👇👇👇👇👇👇
-<a href="https://venocyber-md-qr.onrender.com"><img title="SCAN QR SERVER 2" src="https://img.shields.io/badge/GET SESSION-h?color=darkblue&style=for-the-badge&logo=msi"></a>
-2.  [`PARING CODE`](https://venocybe-md-session-oz6r.onrnder.com/pair). 𝙤𝙧 𝙨𝙚𝙧𝙫𝙚𝙧 2 𝙥𝙖𝙞𝙧𝙞𝙣𝙜 𝙘𝙤𝙙𝙚
-    <br>👇👇👇👇👇👇
-<a href="https://venocyber-md-session-oz6r.onrender.com/pair"><img title="𝙋𝙖𝙞𝙧𝙞𝙣𝙜 𝙘𝙤𝙙𝙚 𝙨𝙚𝙧𝙫𝙚𝙧 2" src="https://img.shields.io/badge/𝙥𝙖𝙞𝙧𝙞𝙣𝙜 𝙘𝙤𝙙𝙚 𝙨𝙚𝙧𝙫𝙚𝙧 2-h?color=green&style=for-the-badge&logo=msi"></a>
+<a href="https://veno-session.onrender.com/pair"><img title="𝙋𝙖𝙞𝙧𝙞𝙣𝙜 𝙘𝙤𝙙𝙚 𝙨𝙚𝙧𝙫𝙚𝙧 2" src="https://img.shields.io/badge/𝙥𝙖𝙞𝙧𝙞𝙣𝙜 𝙘𝙤𝙙𝙚 𝙨𝙚𝙧𝙫𝙚𝙧 2-h?color=green&style=for-the-badge&logo=msi"></a>
 `it is currently powerful working`
 Then `Go-to Whatapp>Three dots>Linked Devices`***
 3.  ***Get Mongodb_URI from [`Mongodb site`](https://www.mongodb.com/) | Watch Tutorial [`To Get Mongodb_URI`](https://youtube.com/shorts/b6zv1n6DTEM). `Optional`***
@@ -182,12 +180,12 @@ Then `Go-to Whatapp>Three dots>Linked Devices`***
 Mrsky tech](https://readme-typing-svg.demolab.com?font=Anton&size=30&pause=998&color=F51FFF&background=F7F2F20A&vCenter=true&random=false&width=465&lines=thank+you%F0%9F%91%8B!;for+using+MrSky+md;🙏;🙏+✍🏾;🥰)]
 
 <h1>MR SKY MD</h1> 
-<b>Thanks For</b> -
+<b>Thanks For Veno</b> -
 
  [mrsky 💖](https://wa.link/bcv9am) 
  
  thanks for helps 💖
-
+ 
  ## [ WHATSAPP GROUPS ](https://chat.whatsapp.com/IveQVlzOl6a5DKil74rmM3)
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
