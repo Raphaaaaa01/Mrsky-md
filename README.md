@@ -45,11 +45,11 @@
 
 <a lign="left">
   <a href="https://github.com/mrsky-cyber/Mrsky-md/forks">
-    <img src="https://img.shields.io/github/forks/mrsky-ccyber/Mrsky-md?label=Forks&style=social">
+    <img src="https://img.shields.io/github/forks/mrsky-ccyber/Mrsky-md?label=Forks&style=social"></a>
   <p align="left"> 
   <a href="https://github.com/mrsky-cyber/Mrsky-md/stargazers">
     <img src="https://img.shields.io/github/stars/mrsky-cyber/Mrsky-md?style=social">
-
+    </a>
 <p align="center"> Mrsky-md uses
   <a href="https://github.com/adiwajshing/Baileys">Multi-Device Baileys.</a>
 </p>
@@ -110,7 +110,7 @@
    <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
    <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 ## Deployment Methods
-if scan qr is not working please try using pairing code i am currently working on it
+please using pairing code i am currently working on it
 ---
 1.  ***Get `SESSION ID` by
 2.  [`PARING CODE`](https://veno-session.onrnder.com/pair). 𝙤𝙧 𝙨𝙚𝙧𝙫𝙚𝙧 2 𝙥𝙖𝙞𝙧𝙞𝙣𝙜 𝙘𝙤𝙙𝙚
