@@ -319,7 +319,7 @@ smd(
    {
      pattern: "allsocial",
      desc: "Download media from various social platforms.",
-     category: "downloader",
+     category: "Facebook",
      filename: __filename,
      use: "<url>",
    },
@@ -348,13 +348,13 @@ smd(
        }
  
        const { title, thumbnail, medias } = result;
-       const caption = `*Title:* ${title}\n\n*Source:* ${medias[0].source}`;
+       const caption = `*📥Title:* ${title}\n\n*📥Source:* ${medias[0].source}`;
  
        await m.bot.sendFromUrl(m.from, thumbnail, caption, m, {}, "image");
  
        for (const media of medias) {
          const { url, formattedSize, quality, extension } = media;
-         const mediaCaption = `*Quality:* ${quality}\n*Size:* ${formattedSize}\n*Extension:* ${extension}`;
+         const mediaCaption = `*📥Quality:* ${quality}\n*📥Size:* ${formattedSize}\n*📥Extension:* ${extension}`;
          await m.bot.sendFromUrl(m.from, url, mediaCaption, m, {}, "video");
        }
      } catch (e) {
@@ -533,7 +533,7 @@ smd(
      pattern: "twitter",
      alias: ["tw", "twdl"],
      desc: "Downloads Twitter videos.",
-     category: "downloader",
+     category: "Twitter",
      filename: __filename,
      use: "<add Twitter URL>",
    },
@@ -580,7 +580,7 @@ smd(
  smd({
    pattern: "tgs",
    desc: "Downloads telegram stickers.",
-   category: "downloader",
+   category: "Telegram",
    filename: __filename,
    use: "<add sticker url.>"
  }, async (_0x19df48, _0x155c01) => {
@@ -630,7 +630,7 @@ smd(
          let _0x13ee38 = await getBuffer(_0x3c2608);
          await _0x19df48.reply(_0x13ee38, {
            packname: Config.packname,
-           author: "Venocyber-Md"
+           author: "Mrsky-Md"
          }, "sticker");
        } else {
          await _0x19df48.bot.sendMessage(_0x19df48.chat, {
@@ -649,7 +649,7 @@ smd(
    {
      pattern: "fbaudio",
      desc: "Downloads Facebook videos in audio.",
-     category: "downloader",
+     category: "Fecebook",
      filename: __filename,
      use: "<add Facebook URL>",
    },
@@ -691,7 +691,7 @@ smd(
  smd({
    pattern: "instagram2",
    desc: "Download media from Instagram.",
-   category: "downloader",
+   category: "Instagram",
    filename: __filename,
    use: "<url>",
  }, async (m, providedUrl = "") => {
@@ -733,7 +733,7 @@ smd(
    {
      pattern: "tgs2",
      desc: "Downloads telegram stickers.",
-     category: "downloader",
+     category: "Telegram",
      filename: __filename,
      use: "<add sticker url.>",
    },
@@ -885,7 +885,7 @@ smd(
            m.bot.sendFromUrl(
              m.from,
              results[i].image,
-             `Title: ${results[i].title}\n*Source:* ${results[i].source}`,
+             `Title: ${results[i].title}\n*⭕Source:* ${results[i].source}`,
              m,
              {},
              "image"
@@ -902,7 +902,7 @@ smd(
      pattern: "facebook",
      alias: ["fb", "fbdl"],
      desc: "Downloads Facebook videos.",
-     category: "downloader",
+     category: "fb",
      filename: __filename,
      use: "<add Facebook URL>",
    },
@@ -948,7 +948,7 @@ smd(
      pattern: "facebook2",
      alias: ["fbhd"],
      desc: "Downloads Facebook videos in HD.",
-     category: "downloader",
+     category: "fb",
      filename: __filename,
      use: "<add Facebook URL>",
    },
@@ -993,7 +993,7 @@ smd(
    pattern: "apk",
    alias: ["modapk"],
    desc: "Downloads apks  .",
-   category: "downloader",
+   category: "APK Download",
    filename: __filename,
    use: "<add sticker url.>"
  }, async (_0x7b09ff, _0x4af114) => {
@@ -1013,7 +1013,7 @@ smd(
        return _0x7b09ff.reply("❌ File size bigger than 200mb.");
      }
      const _0x31321c = _0x538b40.dllink;
-     let _0x24f726 = await fancytext("『 ⛅*ᗩᑭᏦ  ᗞᝪᗯᑎしᝪᗩᗞᗴᖇ*⛅ 』\n\n*APP Name :* " + _0x538b40.name + "\n*App Id :* " + _0x538b40.package + "\n*Last Up :* " + _0x538b40.lastup + "\n*App Size :* " + _0x538b40.size + "\n\n\n " + Config.caption, 25);
+     let _0x24f726 = await fancytext("⭕ ⛅*ᗩᑭᏦ  ᗞᝪᗯᑎしᝪᗩᗞᗴᖇ*⛅ ⭕ \n\n*APP Name :* " + _0x538b40.name + "\n*App Id :* " + _0x538b40.package + "\n*Last Up :* " + _0x538b40.lastup + "\n*App Size :* " + _0x538b40.size + "\n\n\n " + Config.caption, 25);
      const _0x3e266b = (_0x538b40?.name || "Downloader") + ".apk";
      const _0x585f79 = "temp/" + _0x3e266b;
      let _0x533c85 = await _0x7b09ff.reply(_0x538b40.icon, {
@@ -1055,7 +1055,7 @@ smd(
    pattern: "apks",
    alias: ["apksearch"],
    desc: "Search App",
-   category: "downloader",
+   category: "APK Download",
    filename: __filename,
    use: "<Search Query>"
  }, async (_0x19d516, _0x1cb962) => {
@@ -1152,7 +1152,7 @@ smd(
          : "";
        if (!_0x1c586e) {
          return await _0x1ae8f8.reply(
-           "*Provide Repo Url, _.gitclone https://github.com/kingjux/Venocyber-Md_*"
+           "*Provide Repo Url, _.gitclone https://github.com/mrsky-cyber/Mrsky-Md_*"
          );
        }
        const _0x5906ab =
@@ -1195,7 +1195,7 @@ smd(
  smd({
    pattern: "tts",
    desc: "text to speech.",
-   category: "downloader",
+   category: "TTS",
    filename: __filename,
    use: "<Hii,this is Asta>"
  }, async (_0x55aba2, _0x56da6b) => {
@@ -1209,7 +1209,7 @@ smd(
        const _0x18d003 = googleTTS.getAudioUrl(_0x204f81, {
          lang: _0x1974d5,
          slow: true,
-         host: "https://translate.google.com"
+         host: "https://translate.google.com/swahili"
        });
        await _0x55aba2.bot.sendMessage(_0x55aba2.jid, {
          audio: {
@@ -1223,9 +1223,9 @@ smd(
        });
      } catch (_0x3537cb) {
        const _0x5596bc = googleTTS.getAudioUrl(_0x204f81, {
-         lang: "en",
+         lang: "sw",
          slow: true,
-         host: "https://translate.google.com"
+         host: "https://translate.google.com/swahili"
        });
        await _0x55aba2.bot.sendMessage(_0x55aba2.jid, {
          audio: {
@@ -1246,7 +1246,7 @@ smd(
    pattern: "downmp4",
    alias: ["mp4down", "mp4fromurl"],
    desc: "download mp4 from url.",
-   category: "downloader",
+   category: "Videos",
    use: "<url>",
    filename: __filename
  }, async (_0x272f8d, _0x3c482f) => {
@@ -1275,7 +1275,7 @@ smd(
    {
      pattern: "video2",
      desc: "Downloads video from YouTube using yt-search.",
-     category: "downloader",
+     category: "Videos",
      filename: __filename,
      use: "<video title or URL>",
    },
@@ -1383,7 +1383,7 @@ smd(
      pattern: "tiktok",
      alias: ["tt", "ttdl"],
      desc: "Downloads Tiktok Videos Via Url.",
-     category: "downloader",
+     category: "Tiktok",
      filename: __filename,
      use: "<add tiktok url.>",
    },
@@ -1432,7 +1432,7 @@ smd(
    {
      pattern: "tiktok2",
      desc: "Downloads Tiktok Videos Via Url.",
-     category: "downloader",
+     category: "Tiktok",
      filename: __filename,
      use: "<add tiktok url.>",
    },
@@ -1672,7 +1672,7 @@ smd({
    pattern: "yts",
    alias: ["yt", "ytsearch"],
    desc: "Search Song From youtube",
-   category: "downloader",
+   category: "Youtube",
    filename: __filename,
    use: "<Yt Search Query>"
  }, async (_0x1c8285, _0xca939c) => {
@@ -1700,7 +1700,7 @@ smd({
    pattern: "ytmp4",
    alias: ["ytv", "ytvid", "ytvideo"],
    desc: "Downloads video from youtube.",
-   category: "downloader",
+   category: "Youtube",
    filename: __filename,
    use: "<yt video url>"
  }, async (_0x1d4717, _0x3716fd) => {
@@ -1831,7 +1831,7 @@ smd({
    pattern: "ytmp3",
    alias: ["yta"],
    desc: "Downloads audio by yt link.",
-   category: "downloader",
+   category: "Youtube",
    use: "<yt video url>"
  }, async (_0x3f8930, _0x5834bb) => {
    let _0x4fe91c = _0x5834bb ? _0x5834bb : _0x3f8930.reply_text;
@@ -1903,7 +1903,7 @@ smd({
    pattern: "ytdoc",
    alias: ["ytd"],
    desc: "Downloads audio by yt link as document.",
-   category: "downloader",
+   category: "Youtube",
    use: "<ytdoc video url>"
  }, async (_0x17c662, _0x429696) => {
    try {
