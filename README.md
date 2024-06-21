@@ -15,7 +15,7 @@
 
 <p align="center">
   <a href="https://github.com/mrsky-cyber/Mrsky-md">
-    <img alt="Mr-Sky docs" height="300" src="https://telegra.ph/file/504b26be1bb9cf690261b.jpg">
+    <img alt="Mr-Sky docs" height="300" src="https://telegra.ph/file/e401d0a038f615c73871b.jpg">
   </a>
 </p>
     
@@ -24,7 +24,7 @@
    
    
 <p align="center">
-  <a href="https://wa.me/+255715654328?text=Hi+Bro--+I+Need+Help.+I+messaged+you+from+Mrsky-md+Repo" target="_blank">
+  <a href="https://wa.me/+255753033342?text=Hi+Bro--+I+Need+Help.+I+messaged+you+from+Mrsky-md+Repo" target="_blank">
     <img alt="whatsapp" src="https://img.shields.io/badge/ Whatsapp -25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
  
   <a aria-label="Mrsky-md is free to use" href="https://github.com/mrsky-cyber/Mrsky-md" target="_blank">
@@ -43,9 +43,7 @@
 <a href="https://github.com/mrsky-cyber?tab=followers"><img title="Followers" src="https://img.shields.io/github/followers/Mrsky-cyber?label=Followers&style=social"></a>
 
 
-<a lign="left">
-  <a href="https://github.com/mrsky-cyber/Mrsky-md/forks">
-    <img src="https://img.shields.io/github/forks/mrsky-ccyber/Mrsky-md?label=Forks&style=social"></a>
+
   <p align="left"> 
   <a href="https://github.com/mrsky-cyber/Mrsky-md/stargazers">
     <img src="https://img.shields.io/github/stars/mrsky-cyber/Mrsky-md?style=social">
