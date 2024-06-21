@@ -44,7 +44,7 @@
 
 
 
-  <p align="left"> 
+  <p align="center"> 
   <a href="https://github.com/mrsky-cyber/Mrsky-md/stargazers">
     <img src="https://img.shields.io/github/stars/mrsky-cyber/Mrsky-md?style=social">
     </a>
