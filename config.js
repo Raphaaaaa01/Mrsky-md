@@ -14,9 +14,9 @@ global.blockJids = process.env.BLOCK_JID || "null";
 global.DATABASE_URL = process.env.DATABASE_URL || "";
 global.timezone = process.env.TZ || process.env.TIME_ZONE || "Africa/Dar es salaam";
 global.github = process.env.GITHUB || "https://github.com/mrsky-cyber/Mrsky-md";
-global.gurl = process.env.GURL || "https://chat.whatsapp.com/I98ptwPbiFd7CvHXtcJMxp";
-global.website = process.env.GURL || "https://chat.whatsapp.com/I98ptwPbiFd7CvHXtcJMxp";
-global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://telegra.ph/file/504b26be1bb9cf690261b.jpg";
+global.gurl = process.env.GURL || "https://chat.whatsapp.com/HJgOTkcWL0BBqpsMm5cT6T";
+global.website = process.env.GURL || "https://chat.whatsapp.com/HJgOTkcWL0BBqpsMm5cT6T";
+global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://telegra.ph/file/e401d0a038f615c73871b.jpg";
 global.devs = "2557530333342";
 global.sudo = process.env.SUDO || "2557530333342";
 global.owner = process.env.OWNER_NUMBER || "255753033342";
@@ -59,7 +59,7 @@ module.exports = {
   OPENAI_API_KEY: process.env.OPENAI_API_KEY || "",
   HEROKU_API_KEY: process.env.HEROKU_API_KEY || "",
   HEROKU_APP_NAME: process.env.HEROKU_APP_NAME || "",
-  antilink_values: process.env.ANTILINK_VALUES || "http://,www.goog.com,https://,https://chat.whatsapp.com/,wa.me/,https://cutt.ly/,",
+  antilink_values: process.env.ANTILINK_VALUES || "http://,www.goog.com,https://,https://chat.whatsapp.com/,wa.me/,https://cutt.ly/,www.googl.cu,",
   HEROKU: process.env.HEROKU_APP_NAME && process.env.HEROKU_API_KEY,
   aitts_Voice_Id: process.env.AITTS_ID || "37",
   ELEVENLAB_API_KEY: process.env.ELEVENLAB_API_KEY || "",
