@@ -26,7 +26,7 @@ async( message, text) => {
         if(!msg  || msg.reaction) return
         if(!bots || utd ){ bots = await bot_.findOne({id: `bot_${msg.user}` }); utd=false} 
         if(!bots || !bots.autoreaction || bots.autoreaction==="false") return
-        else if (bots.autoreaction === 'true' || (icmd && bots.autoreaction === 'cmd') ) {let emokis = emojis[Math.floor(Math.random() * (emojis.length))];await react(msg,emokis)}
-        else if (bots.autoreaction === 'all') {var mokis = mojis[Math.floor(Math.random() * (mojis.length))]; await react(msg,mokis) }
-    }catch(e){console.log("error in auto reatcion : " , e)}
+        else if (bots.autoreaction === 'true' || (icmd && bots.autoreaction === 'cmd') ) {let emokis = emojis[Math.floor(Math.random() * (emojis.length))];await react(msg,emojis)}
+        else if (bots.autoreaction === 'all') {var mojis = mojis[Math.floor(Math.random() * (mojis.length))]; await react(msg,mojis) }
+    }catch(e){console.log("error in auto reatcion👅 : " , e)}
 })
