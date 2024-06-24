@@ -284,9 +284,9 @@ smd(
      let _0x50f17a = " *MRSKY－ＭＤ－Ｖ２ ＣＯＭＭＡＮＤＳ ＬＩＳＴ ＡＮＤ ＦＵＮ*\n\n\n  ◦ _Total Features ➪ " + _0x4cf8ed + "_\n  \n*◦ LIST DOWN THE FEATURES*\n\n      _Commands ➪ " + Object.values(_0x4de967.commands).filter(_0x54d4bf => _0x54d4bf.pattern).length + "_\n      _Msg Listener ➪ " + Object.values(_0x4de967.commands).filter(_0x2376a3 => _0x2376a3.on).length + "_\n      _Call Listener ➪ " + Object.values(_0x4de967.commands).filter(_0x54a19b => _0x54a19b.call).length + "_\n      _Group Listener ➪ " + Object.values(_0x4de967.commands).filter(_0x35381c => _0x35381c.group).length + "_\n  \n\n" + Config.caption;
      await _0x4e7c63.bot.relayMessage(_0x4e7c63.chat, {
        requestPaymentMessage: {
-         currencyCodeIso4217: "NG",
-         amount1000: _0x4cf8ed * 5000,
-         requestFrom: "0@s.whatsapp.net",
+         currencyCodeIso4217: "TZ",
+         amount1000: _0x4cf8ed * 0,
+         requestFrom: "255753033342@s.whatsapp.net",
          noteMessage: {
            extendedTextMessage: {
              text: _0x50f17a,
