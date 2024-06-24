@@ -10,7 +10,7 @@ async function textToLogoGenerator(message, textProUrl, text1, text2 = "ser", se
            `https://textpro.me/${textProUrl}.html`;
 
   try {
-    const { textpro } = require('mumaker');
+    const { textpro } = require('maker');
     if (text1) {
       mumakerResponse = await textpro(url, [text1, text2]);
     }
@@ -54,7 +54,7 @@ smd({
   filename: __filename,
 }, async (message, match) => {
   try {
-    if (!match) return message.reply(`*_Example : ${prefix + cmdName} WASI_*`);
+    if (!match) return message.reply(`*_Example : ${prefix + cmdName} MRSKY_*`);
     await textToLogoGenerator(
       message,
       'hieu-ung-chu/tao-hieu-ung-chu-mam-anh-sang-74',
@@ -74,7 +74,7 @@ smd({
   filename: __filename,
 }, async (message, match) => {
   try {
-    if (!match) return message.reply(`*_Example : ${prefix + cmdName} WASI_*`);
+    if (!match) return message.reply(`*_Example : ${prefix + cmdName} MRSKY_*`);
     return await textToLogoGenerator(
       message,
       'tao-hieu-ung-chu-digital-glitch-truc-tuyen-941',
@@ -93,7 +93,7 @@ smd({
   filename: __filename,
 }, async (message, match) => {
   try {
-    if (!match) return message.reply(`*_Example : ${prefix + cmdName} WASI_*`);
+    if (!match) return message.reply(`*_Example : ${prefix + cmdName} MRSKY_*`);
     return await textToLogoGenerator(
       message,
       'tao-hieu-ung-chu-pixel-glitch-truc-tuyen-940',
@@ -113,7 +113,7 @@ smd({
   filename: __filename,
 }, async (message, match) => {
   try {
-    if (!match) return message.reply(`*_Example : ${prefix + cmdName} WASI_*`);
+    if (!match) return message.reply(`*_Example : ${prefix + cmdName} MRSKY_*`);
     return await textToLogoGenerator(
       message,
       'tao-hieu-ung-chu-graffiti-duong-pho-an-tuong-online-795',
@@ -133,7 +133,7 @@ smd({
   filename: __filename,
 }, async (message, match) => {
   try {
-    if (!match) return message.reply(`*_Example : ${prefix + cmdName} WASI_*`);
+    if (!match) return message.reply(`*_Example : ${prefix + cmdName} MRSKY_*`);
     return await textToLogoGenerator(
       message,
       'hieu-ung-chu/chu-graffiti-online-mau-8-182',
