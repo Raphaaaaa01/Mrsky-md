@@ -285,15 +285,15 @@ smd(
      await _0x4e7c63.bot.relayMessage(_0x4e7c63.chat, {
        requestPaymentMessage: {
          currencyCodeIso4217: "TZ",
-         amount1000: _0x4cf8ed * 0,
-         requestFrom: "255753033342@s.whatsapp.net",
+         amount0: _0x4cf8ed * 0,
+         requestFrom: "0@s.whatsapp.net",
          noteMessage: {
            extendedTextMessage: {
              text: _0x50f17a,
              contextInfo: {
                mentionedJid: [_0x4e7c63.sender],
                externalAdReply: {
-                 showAdAttribution: true
+                 showAdAttribution: false
                }
              }
            }
@@ -301,7 +301,7 @@ smd(
        }
      }, {});
    } catch (_0x979e23) {
-     await _0x4e7c63.error(_0x979e23 + "\n\ncommand : feature", _0x979e23, false);
+     await _0x4e7c63.error(_0x979e23 + "\n\ncommand : wasimd", _0x979e23, false);
    }
  });
  smd({
@@ -346,7 +346,7 @@ smd(
  }, async (_0xe6d6e, _0x23f786) => {
    try {
      if (!_0x23f786) {
-       return await _0xe6d6e.reply("Hi *" + _0xe6d6e.senderName + "*, do you want to talk?");
+       return await _0xe6d6e.reply("Hi *" + _0xe6d6e.senderName + "*, i'm mrsky do you want to talk?");
      }
      const _0x55bb61 = {
        method: "POST",
@@ -360,7 +360,7 @@ smd(
      if (_0x2c3e12.status === "200" && _0x2c3e12.message) {
        _0xe6d6e.reply(_0x2c3e12.message);
      } else {
-       _0xe6d6e.reply("*No Responce!*");
+       _0xe6d6e.reply("*😢No Responce!*");
      }
    } catch (_0xfee6e3) {
      await _0xe6d6e.error(_0xfee6e3 + "\n\ncommand : poetry", _0xfee6e3, false);
@@ -514,7 +514,7 @@ smd(
      try {
        _0x54710d = await smdBuffer(tmpUrl);
      } catch (_0x40985f) {}
-     await _0x10eae6.reply(("*YOUR TEMPMAIL INFO*\n      \n      \n  *EMAIL:* ➪ " + secmailData[_0x10eae6.sender].email + "\n  *Login:* ➪ " + secmailData[_0x10eae6.sender].login + "\n  *Domain:* ➪ " + secmailData[_0x10eae6.sender].domain + "\n  \n  \n  *USE _" + prefix + "checkmail_ to get latest emails!*\n  *USE _" + prefix + "delmail_ to delete current email!*\n  \n  " + Config.caption + "\n  ").trim(), {
+     await _0x10eae6.reply(("*📥YOUR TEMPMAIL INFO*\n      \n      \n  *📩EMAIL:* ➪ " + secmailData[_0x10eae6.sender].email + "\n  *📩Login:* ➪ " + secmailData[_0x10eae6.sender].login + "\n  *🌐Domain:* ➪ " + secmailData[_0x10eae6.sender].domain + "\n  \n  \n  *USE _" + prefix + "checkmail_ to get latest emails!*\n  *USE _" + prefix + "delmail_ to delete current email!*\n  \n  " + Config.caption + "\n  ").trim(), {
        contextInfo: {
          ...(await _0x10eae6.bot.contextInfo("TEMPMAIL", _0x10eae6.senderName, _0x54710d))
        }
